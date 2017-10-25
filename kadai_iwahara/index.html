@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content=",,,">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>プログラミングができる学習宿泊ホテル</title>
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	/*<style type="text/css">
+	a:link { color : #000000; }
+	a:visited { color : #000000; }
+	</style>*/
+</head>
+<body>
+	<div id="wrapper">
+		<header id="header">
+      <div class="inner">
+				<div class="header-inner">
+					<h1 class="site-logo"><img src="./img/header/logo.jpg" alt="header" width="195px"></h1>
+					<p class="logo-text">表参道で学習できるプログラミングホテル</p>
+				</div>
+				<div class="tel">
+					<p class="tel-yoyaku">宿泊予約</p>
+					<p class="tel-num">TEL：03-5413-5045</p>
+				</div>
+			</div>
+      <div class="navi">
+					<ul class="navi-link">
+		        <li><a href="#home">HOME</a></li>
+		        <li><a href="#syukuhaku">ご宿泊</a></li>
+		        <li><a href="#plan">おすすめプラン</a></li>
+		        <li><a href="#sisetu">施設紹介</a></li>
+		        <li><a href="#syuhen">周辺施設＆観光</a></li>
+						<li><a href="#concept">コンセプト</a></li>
+						<li><a href="#saiyou">採用情報</a></li>
+						<li><a href="#sai">お問い合わせ</a></li>
+		      </ul>
+			</div>
+    </header>
+		<div class="mainvisual">
+			<img src="./img/mainvisual/main_01.png" alt="mainvisual" width="100%">
+		</div>
+		<div class="agenda">
+			<p class="agenda-date">ご滞在希望日程</p>
+			<form class="toiawase" action="index.html" method="post">
+				<label>お名前　<input type="text" name="name" value=""></label>
+				<label>メールアドレス　<input type="text" name="email"></label>
+				<label>男性人数　<input type="number" name="man" min="0" style="width:40px;" value="1"></label>
+				<label>女性人数　<input type="number" name="female" min="0" style="width:40px;" value="1"></label>
+				<label class="toiawase-style">お問い合わせ</label>
+			</form>
+			<div class="intro">
+				<h1 class="naiyou">ようこそプログラミング学習ができるホテル</h1>
+				<h1 class="naiyou1">omotesandoへ。</h1>
+				<div class="naiyou2">
+					<p>せまい、だけど清潔、快適、ネットも使える。</p>
+					<p>ホテル運営上のあらゆるムダを省き、業界初、なんとプログラミング未経験者でも大歓迎！</p>
+					<p>海外からのバックパッカーや宿泊コストなどを極力切り詰めたいという皆様を応援します。</p>
+				</div>
+			</div>
+			<div class="lounge">
+				<h1 class="l-title">Lounge</h1>
+				<div class="l-naiyou">
+					<p>静かに学びたい方は特別なスペースを。</p>
+					<p>訪れてくださったお客様に思いっきり楽しんでいただきたい。そんな思いから当ホテル内に</p>
+					<p>Loungeを開設いたしました。</p>
+				</div>
+				<p><a href="">＞　詳しく見る</a></p>
+			</div>
+		</div>
+			<div class="syuhen">
+				<h1 class="s-title">周辺施設</h1>
+				<div class="s-naiyou">
+					<p>行きたいところへ、思い立てばすぐ。</p>
+					<p>当ホテルから表参道周辺、青山、外苑一丁目など様々な場所に簡単にアクセスができます</p>
+					<p>当ホテル周辺の観光箇所や穴場スポットなどご紹介。</p>
+				</div>
+				<p><a href="">＞　詳しく見る</a></p>
+			</div>
+			<div class="plan">
+				<h1 class="p-title">おすすめプラン</h1>
+				<div class="p-t"><img src="./img\top\plan_title_bg.png" alt="" width="200px" height="30px"></div>
+				<div class="p-contet">
+					<div class="man">
+						<h2 class="room">カプセルルーム</h2>
+						<h2 class="p-sexf">女性専用</h2>
+						<img src=".\img\top\plan_img_01.png" alt="" width="300px" height="234px">
+					</div>
+					<div class="man">
+						<h2 class="room">カプセルルーム</h2>
+						<h2 class="p-sexm">男性専用</h2>
+						<img src=".\img\top\plan_img_02.png" alt="" width="300px" height="234px">
+					</div>
+					<div class="man">
+						<h2 class="room">スーペリア　カプセルルーム</h2>
+						<h2 class="p-sexm">男性専用</h2>
+						<img src=".\img\top\plan_img_03.png" alt="" width="300px" height="234px">
+					</div>
+				</div>
+			</div>
+				<!--DB処理  -->
+				<div class="hotel">
+					<h1 class="h-title">Ｗｈａｔ’ｓＮｅｗ・プログラミングができる学習宿泊ホテル</h1>
+					<ul>
+						 <form action="insert.php" method="post" class="flex-parent cartin-area cms-area" enctype="multipart/form-data">
+
+						<li>2017年08月11日</li>
+						<li>2017年08月12日</li>
+						<li>2017年08月13日</li>
+						<li>2017年08月14日</li>
+					</ul>
+					<p class="itiran">過去のプログラミングができる学習宿泊ホテルからのお知らせ一覧を見る</p>
+				</div>
+				<!--footer-->
+			 <footer class="footer">
+					<div class="info">
+						<div class="youtube">
+							<iframe width="465" height="285" src="https://www.youtube.com/embed/B9FzVhw8_bY" frameborder="0" allowfullscreen></iframe>
+							<iframe width="465" height="285" src="https://www.youtube.com/embed/EvTxsD0FKs8" frameborder="0" allowfullscreen></iframe>
+						</div>
+						<div class="sonota">
+							<a href="#" alt="link" id="ame">
+							<span><strong>アメニティ</strong></span>
+							</a>
+							<a href="#" alt="link" id="otoku">
+							<span><strong>お得情報</strong></span>
+							</a>
+							<a href="#" alt="link" id="kon">
+							<span><strong>コンセプト</strong></span>
+							</a>
+							<a href="#" alt="link" id="sai">
+							<span><strong>採用情報</strong></span>
+							</a>
+						</div>
+						<div class="sns">
+							<ul class="social-list">
+								<li class="social-item"><a href="https://www.facebook.com/" target=”_blank”><img src="./img/footer/fb.png" alt="" width="60%" height="60%"></a></li>
+								<li class="social-item"><a href="https://twitter.com" target=”_blank”><img src="./img/footer/tw.png" alt="" width="60%" height="60%"></a></li>
+								<li class="social-item"><a href="https://www.instagram.com" target=”_blank”><img src="./img/footer/insta.png" alt="" width="60%" height="60%"></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="foot">
+						<h1 class="footer-logo"><img src="./img/header/logo.jpg" alt="header" width="175px"></h1>
+						<div class="footer-info">
+							<p class="footer-ad">株式会社デジタルっぽい株式会社：東京都港区北青山3-5-6 青朋ビル2F</p>
+							<p class="footer-c">Copyright (C) 2017プログラミングができる学習宿泊ホテル. All Rights Reserved.</p>
+						</div>
+					</div>
+
+			</footer>
+
+
+
+
+
+
+	</div>
+	<!-- end# wrapper -->
+
+	<!-- jquery script -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>

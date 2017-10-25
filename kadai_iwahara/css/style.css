@@ -1,0 +1,275 @@
+/*全体*/
+@charset "UTF-8";
+#wrap{
+  width: 960px;
+  margin: auto;
+	font-size: 13;
+}
+/*header*/
+.inner{
+  display: flex;
+  justify-content: space-between;
+}
+.logo-text{
+	font-size: 10px;
+}
+.tel-yoyaku{
+	background-color: #A0522D	;
+	color: #fff;
+	text-align: center;
+}
+.tel-num{
+	font-size: 20px;
+}
+
+.navi-link{
+  font-size: 15px;
+	padding: 15px;
+  display: flex;
+  justify-content: space-around;
+	background-color: #f0f0f0;
+}
+
+/*mainvisual*/
+.mainvisual{
+
+}
+.agenda-date{
+	font-size: 13px;
+	color: #fff;
+	background-color: #AD8C38;
+	padding: 15px;
+	margin: 0;
+	text-align: center;
+}
+.toiawase{
+	color: #ffffff;
+	background-color: #999999;
+	padding: 30px;
+	display: flex;
+	justify-content: space-around;
+}
+.toiawase-style{
+	background-color: #A0522D	;
+	padding: 10px;
+}
+
+.intro{
+	color: #ffffff;
+	text-align: center;
+	background-image: url(../img/top/intro_bg.png);
+	background-size: cover;
+	height: 420px;
+}
+.naiyou{
+	font-size: 39px;
+	padding-top: 100px
+}
+.naiyou1{
+	font-size: 39px;
+}
+.naiyou2{
+	font-size: 15px;
+	padding-top: 80px;
+	-ms-text-align-last: auto;
+}
+
+.lounge{
+	color: #ffffff;
+	text-align: center;
+	margin-top: 10px;
+	background-image: url(../img/top/bar_sec_bg.png);
+	background-size: cover;
+	height: 420px;
+}
+.l-title{
+	font-size: 39px;
+	padding-top: 150px;
+}
+.l-naiyou{
+	padding-top: 100px;
+	font-size: 15px;
+}
+
+.syuhen{
+	color: #ffffff;
+	text-align: center;
+	margin-top: 10px;
+	background-image: url(../img/top/facility_sec_bg.png);
+	background-size: cover;
+	height: 420px;
+}
+.s-title{
+	font-size: 39px;
+	padding-top: 150px;
+}
+.s-naiyou{
+	padding-top: 100px;
+	font-size: 15px;
+}
+/*おすすめプラン*/
+.plan{
+	background-image: url(../img/top/plan_sec_bg.png);
+	height: 400px;
+	margin-top: 10px;
+}
+.p-title{
+	font-size: 24px;
+	text-align: center;
+	padding-top: 20px;
+}
+.p-t{
+	text-align: center;
+}
+.p-contet{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+.room{
+font-size: 19px;
+background-color: #fff;
+
+}
+.p-sexf{
+	font-size: 19px;
+	color: #FF69B4;
+	background-color: #fff;
+}
+.p-sexm{
+	font-size: 19px;
+	color: #00BFFF;
+	background-color: #fff;
+}
+/*DB*/
+.hotel{
+	background-image: url(../img/top/news_bg.png);
+	background-size: cover;
+	height: 305px;
+}
+.h-title{
+	font-size: 24px;
+	color: #fff;
+	background-color: #999999;
+	margin-top: 30px;
+	text-align: center;
+}
+.itiran{
+  justify-content: flex-end;
+}
+
+.info{
+	background-image: url(../img/top/plan_sec_bg.png);
+	height: 731px;
+}
+.youtube{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+}
+
+.sonota{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#ame{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/footer/f_banner_link_01.png);
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
+#otoku{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/footer/f_banner_link_02.png);
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
+
+#kon{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/footer/f_banner_link_03.png);
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
+
+#sai{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/footer/f_banner_link_04.png);
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
+
+
+
+
+.social-list{
+	display: flex;
+  margin-top: 40px;
+  justify-content: center;
+	align-items: center;
+}
+
+.foot{
+  height: 108px;
+  background-color: #555555;
+  display: flex;
+
+}
+.footer-logo{
+  padding: 15px;
+}
+.footer-info{
+  color: #fff;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: 200px;
+  justify-content: center;
+  text-align: center;
+}
+
+
+/*-----------------*/
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/*clearfix
+-----------------*/
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+
+
+/*
+-----------------*/
